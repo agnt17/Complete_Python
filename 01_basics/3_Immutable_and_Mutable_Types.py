@@ -1,0 +1,3 @@
+# *************************MUTABLE AND IMMUTABLE TYPES:*******************
+
+#   In Python, the term "MUTABLE" refers to objects whose state or content can be changed after they are created. This means that the memory location (or reference) of the object remains the same, but the internal contents of the object can be modified. Lists, dictionaries, and sets are examples of mutable objects in Python.
