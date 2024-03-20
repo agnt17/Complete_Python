@@ -31,4 +31,21 @@ print(myDict.values())
 
 
 # Tuples in Python*****************
-myTuple = ()
+myTuple = (1, 2, 3)
+print(myTuple[0])
+
+# There is no as such data type in python... means if u declare a variable then at the time of declaration we don't declare its data type but when its value is assigned inside the memory then the data type is defined.
+
+# The beauty of "is" operator....
+
+# is operator basically tells that if both are on same memory location or not...
+# eg:
+
+l1 = [1,2,3,4]
+l2 = l1
+l3 = l1
+l3 = [1,2,3,4]
+#  both l1 and l2 points at same location..
+
+print(l1 is l2) # o/p: true
+print(l1 is l3) #o/p: false
